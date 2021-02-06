@@ -18,7 +18,7 @@ cron.schedule("* * * * *", () => {
                     }
     
                     now = new Date().getTime();
-                    endTime = new Date(stat.ctime).getTime() + 1; //밀리초 단위
+                    endTime = new Date(stat.ctime).getTime() + 300000; //밀리초 단위
                     if (now > endTime) 
                     {
                         return fs.unlink(path.join(publicDirPath, file), function(err) {
