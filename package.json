@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yikolden",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:gb": "./gb/gbdotlive -S -r './gb/pokemon-red.gb'",
+    "watch": "nodemon index.js",
+    "test": "jest",
+    "rm:gb_file": "rm -rf ./gb/pokemon-red.gb.sav"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "query-string": "^6.13.8",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.7"
+  }
+}

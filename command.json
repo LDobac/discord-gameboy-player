@@ -1,0 +1,53 @@
+{
+    "prefix" : ["!p", "!포"],
+    "commands" : {
+        "d" : {
+            "default" : ["드"],
+            "short" : []
+        },
+        "g" : {
+            "default" : ["군"],
+            "short" : []
+        },
+        "help" : {
+            "default" : ["help", "hell", "hello", "helloworld", "도움!" ,"도움말", "헬프"],
+            "short" : ["h"]
+        },
+        "left" : {
+            "default" : ["left", "왼쪽", "왼"],
+            "short" : ["l", "왼"]
+        },
+        "right" : {
+            "default" : ["right", "오른쪽", "오"],
+            "short" : ["r", "오"]
+        },
+        "up" : {
+            "default" : ["up", "위쪽", "위"],
+            "short" : ["u", "위"]
+        },
+        "down" : {
+            "default" : ["down", "아래쪽", "아래", "아"],
+            "short" : ["d", "아래", "아"]
+        },
+        "a" : {
+            "default" : ["a"],
+            "short" : ["a"]
+        },
+        "b" : {
+            "default" : ["b"],
+            "short" : ["b"]
+        },
+        "select" : {
+            "default" : ["select", "선택"],
+            "short" : ["se","select"]
+        },
+        "start" : {
+            "default" : ["start","시작"],
+            "short" : ["st","start"]
+        },
+        "image" : {
+            "default" : ["image","이미지"],
+            "short" : ["i"]
+        }
+    }
+}
